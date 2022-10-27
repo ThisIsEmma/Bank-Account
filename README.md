@@ -4,6 +4,6 @@
 
 Edith Sakatia
 
-## Summary
+## Usage
 
 The goal of this project is to practice classes and encapsulation.
