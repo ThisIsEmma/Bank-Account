@@ -4,6 +4,14 @@
 
 Edith Sakatia
 
-## Usage
+## Title:  
 
-The goal of this project is to practice classes and encapsulation.
+Bank Account Project
+
+## Description:
+
+The goal of this project is to practice classes and encapsulation. In the project, we create a Bank_Account class and implement methods.
+
+## Language Used:
+
+Python.
