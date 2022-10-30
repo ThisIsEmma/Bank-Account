@@ -44,19 +44,20 @@ class BankAccount:
 
 # Create 3 different bank accounts examples:
 
-liz_account = BankAccount('Liz Truss','checking', '00123457', 1500)
-rishi_account = BankAccount('Rishi Sunak','checking','88978432', 1600)
-royal_account = BankAccount('Charles III', 'checking', '74212378', 5000)
+liz_account = BankAccount('Liz Truss','checking')
+rishi_account = BankAccount('Rishi Sunak','checking')
+royal_account = BankAccount('Charles III', 'checking')
 
 # Accounts using methods implemented above: 
 
 liz_account.deposit(1500)
-royal_account.withdraw(500)
+royal_account.withdraw(50) 
+royal_account.deposit(60)
 rishi_account.print_statement()
 liz_account.add_interest()
 liz_account.get_balance()
 
-mitchell = BankAccount('mitchell', 'checking', account_number = '03141592')
+mitchell = BankAccount('mitchell', 'checking', account_number = '03141592') #assigned account # 03141592 per assignment requirement.
 mitchell.deposit(400000)
 mitchell.print_statement()
 mitchell.add_interest()
@@ -64,12 +65,14 @@ mitchell.print_statement()
 mitchell.withdraw(150)
 mitchell.print_statement()
 
-# Stretch challenge - Add attribute for saving account:
+# Stretch challenge 
+
+# Add attribute for saving account:
 
 liz_account.account_type = 'saving'
 liz_account.add_interest()
 
-# Create a list called: bank. Add all of your accounts to bank. 
+# Create a list called: bank. Add all of your accounts to bank: 
 
 bank = [liz_account, royal_account, rishi_account, mitchell]
 
