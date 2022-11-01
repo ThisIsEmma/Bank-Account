@@ -2,7 +2,6 @@
 
 from random import randint
 
-
 class BankAccount:
     def __init__(self, full_name, account_type, account_number = int(''.join([str(randint(0,9)) for i in range(8)])), balance = 0):
         self.full_name = full_name
